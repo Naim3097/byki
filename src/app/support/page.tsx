@@ -1,6 +1,5 @@
 import { Phone, Mail, MessageCircle, Book, Search, Clock, CheckCircle, HelpCircle, Shield, Smartphone, Bluetooth, Settings, AlertCircle, ArrowRight } from "lucide-react";
 import Button from "@/components/ui/Button";
-import Link from "next/link";
 
 export default function SupportPage() {
   return (

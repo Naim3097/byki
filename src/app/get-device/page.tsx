@@ -1,4 +1,4 @@
-import { CheckCircle, Bluetooth, Shield, Clock, Smartphone, Award, ShoppingCart, ArrowRight, Truck, Star } from "lucide-react";
+import { Bluetooth, Shield, Clock, Smartphone, Award, ShoppingCart, ArrowRight, Truck, Star } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
 

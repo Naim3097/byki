@@ -1,6 +1,5 @@
-import { Download, Smartphone, QrCode, Star, CheckCircle, Apple, Play, ArrowRight, Shield, Zap } from "lucide-react";
+import { Download, QrCode, Star, CheckCircle, Apple, Play, Shield, Zap } from "lucide-react";
 import Button from "@/components/ui/Button";
-import Link from "next/link";
 
 export default function DownloadPage() {
   return (
