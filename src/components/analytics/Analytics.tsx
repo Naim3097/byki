@@ -35,6 +35,9 @@ export function GoogleAnalytics({ ga_id }: { ga_id: string }) {
 // Core Web Vitals tracking
 export function WebVitals() {
   useEffect(() => {
+    // Optional: Add web vitals tracking when needed
+    // Commented out to avoid dependency issues during deployment
+    /*
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
       getCLS(console.log)
       getFID(console.log)
@@ -42,6 +45,7 @@ export function WebVitals() {
       getLCP(console.log)
       getTTFB(console.log)
     })
+    */
   }, [])
 
   return null

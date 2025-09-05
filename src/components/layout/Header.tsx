@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { Menu, X, ChevronDown, Smartphone, Shield, Wrench, HelpCircle, Building, FileText, BookOpen } from 'lucide-react';
+import { Menu, X, ChevronDown, Smartphone, Shield, HelpCircle, Building, FileText, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Header() {

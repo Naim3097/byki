@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Get SXAN Device - Professional OBD2 Scanner RM59',
     description: 'Order your SXAN OBD2 diagnostic device for RM59. Professional-grade diagnostics, Bluetooth, universal compatibility, and 2-year warranty.',
-    type: 'product',
+    type: 'website',
     locale: 'en_MY',
   },
   twitter: {

@@ -1,33 +1,9 @@
 'use client';
 
-import { MapPin, CheckCircle, Star, Shield, Clock, Phone, Award, Search, Filter, ArrowRight } from "lucide-react";
+import { MapPin, CheckCircle, Star, Shield, Clock, Phone, Award, Search } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
 import { motion } from "framer-motion";
-
-const fadeInUp = {
-  initial: { opacity: 0, y: 60 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.8 }
-};
-
-const fadeIn = {
-  initial: { opacity: 0 },
-  animate: { opacity: 1 },
-  transition: { duration: 0.8 }
-};
-
-const slideInLeft = {
-  initial: { opacity: 0, x: -60 },
-  animate: { opacity: 1, x: 0 },
-  transition: { duration: 0.8 }
-};
-
-const slideInRight = {
-  initial: { opacity: 0, x: 60 },
-  animate: { opacity: 1, x: 0 },
-  transition: { duration: 0.8 }
-};
 
 const staggerContainer = {
   animate: {
@@ -71,7 +47,7 @@ export default function WorkshopsPage() {
                 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-gray-900"
                 variants={staggerItem}
               >
-                Malaysia's
+                Malaysia&apos;s
                 <span className="block text-byki-green">
                   Largest
                 </span>
@@ -274,7 +250,7 @@ export default function WorkshopsPage() {
               </motion.div>
               <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">Quality Guarantee</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Every service comes with our quality guarantee. Unsatisfied with the work? We'll make it right or provide a full refund.
+                Every service comes with our quality guarantee. Unsatisfied with the work? We&apos;ll make it right or provide a full refund.
               </p>
               <div className="space-y-2 text-sm text-gray-600">
                 <div className="flex items-center space-x-2">
@@ -682,7 +658,7 @@ export default function WorkshopsPage() {
               <div className="space-y-4">
                 <h3 className="text-xl font-bold text-gray-900">Get Service</h3>
                 <p className="text-gray-600">
-                  Enjoy transparent pricing, quality service, and real-time updates on your vehicle's repair progress.
+                  Enjoy transparent pricing, quality service, and real-time updates on your vehicle&apos;s repair progress.
                 </p>
               </div>
             </motion.div>
@@ -714,7 +690,7 @@ export default function WorkshopsPage() {
                 className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto"
                 variants={staggerItem}
               >
-                Join Malaysia's largest automotive workshop network. Grow your business with verified customer referrals and digital tools.
+                Join Malaysia&apos;s largest automotive workshop network. Grow your business with verified customer referrals and digital tools.
               </motion.p>
             </motion.div>
 
