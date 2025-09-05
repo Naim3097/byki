@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://byki.my/sitemap.xml
+
+# High-value pages for crawling
+Allow: /device
+Allow: /workshops
+Allow: /download
+Allow: /get-device
+Allow: /about
+Allow: /support
+
+# Prevent crawling of internal files
+Disallow: /_next/
+Disallow: /api/
+Disallow: *.json$
